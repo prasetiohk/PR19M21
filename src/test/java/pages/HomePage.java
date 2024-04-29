@@ -1,11 +1,12 @@
 package pages;
 
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class HomePage {
 
@@ -33,5 +34,29 @@ public class HomePage {
         assertTrue(productElement.isDisplayed());
         assertEquals("Sauce Labs Backpack", productElement.getText());
     }
+   // public void clickAddToCartButton(List<String> items) {
+    // TODO Auto-generated method stub
+    //   throw new UnsupportedOperationException("Unimplemented method 'clickAddToCartButton'");
+    //}
+    //public void goToCartPage() {
+    // TODO Auto-generated method stub
+      //  throw new UnsupportedOperationException("Unimplemented method 'goToCartPage'");
+    //}
+    //public void clickProductName(String item) {
+    // TODO Auto-generated method stub
+    //  throw new UnsupportedOperationException("Unimplemented method 'clickProductName'");
+    //}
+    public void clickAddToCartButton(List<String> items) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'clickAddToCartButton'");
+    }
+    public void goToCartPage() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'goToCartPage'");
+    }
+	public void clickProductName(String item) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'clickProductName'");
+	}
 
 }
